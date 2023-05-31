@@ -1,15 +1,15 @@
 # NBA Win Prediction
 
 ## Purpose:
-### Create a Machine Learning model that takes input NBA data and ouputs which team will win the game.
+Create a Machine Learning model that takes input NBA data and ouputs which team will win the game.
 
 ## Methods:
-### Sourced data primarily from **basketball-reference.com** and worked in Jupyter Notebooks for project development. The task in Logistic Regression (win-loss), but outputs a win percent since most sports games do not have guaranteed results.
+Sourced data primarily from **basketball-reference.com** and worked in Jupyter Notebooks for project development. The task in Logistic Regression (win-loss), but outputs a win percent since most sports games do not have guaranteed results.
 
 ## Model:
-### A 3-hidden-layer deep-learning model was used for this logistic regression task.
-### Regularlization methods incluide: Dropout (20%|0.2) and BatchNorm1d.
-### Input and Internal layers feature ReLU outputs and Output layer features sigmoid for Binary Cross Entropy Loss.
+A 3-hidden-layer deep-learning model was used for this logistic regression task. \
+Regularlization methods incluide: Dropout (20%|0.2) and BatchNorm1d. \
+Input and Internal layers feature ReLU outputs and Output layer features sigmoid for Binary Cross Entropy Loss. \
 
 ## Results:
 ### **The model achieved an overall 66% accuracy.**
