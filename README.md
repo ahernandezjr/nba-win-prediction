@@ -12,14 +12,17 @@ Regularlization methods incluide: Dropout (20%|0.2) and BatchNorm1d. \
 Input and Internal layers feature ReLU outputs and Output layer features sigmoid for Binary Cross Entropy Loss. \
 
 ## Results:
-**The model achieved an overall 66% accuracy.** \\
+**The model achieved an overall 66% accuracy.** \
 Testing Statistics: \
 Accuracy: 0.66 \
 Precision: 0.652 \
 Recall: 0.659 \
-F1-measure: 0.651 \\
+F1-measure: 0.651 \
 The model is favored towards home games, either due to data imbalance or home advantage (as discussed below). \
-![image](https://github.com/ahernandezjr/nba-win-prediction/assets/76761720/cd469fbe-ded6-48cf-8c68-30c899b6cb36) \
+|           | precision | recall | f1-score | support |
+|-----------|-----------|--------|----------|---------|
+| away_team | 0.60      | 0.48   | 0.53     | 2157    |
+| home_team | 0.69      | 0.78   | 0.73     | 3167    |
 ![image](https://github.com/ahernandezjr/nba-win-prediction/assets/76761720/80dbe379-20ef-49f2-8547-66f67fd670ba) \
 
 ## Discussion:
