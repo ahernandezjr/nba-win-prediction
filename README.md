@@ -18,12 +18,12 @@ Accuracy: 0.66 \
 Precision: 0.652 \
 Recall: 0.659 \
 F1-measure: 0.651 \
-The model is favored towards home games, either due to data imbalance or home advantage (as discussed below). \
-|           | precision | recall | f1-score | support |
+The model is favored towards home games, either due to data imbalance or home advantage (as discussed below).
+| class     | precision | recall | f1-score | support |
 |-----------|-----------|--------|----------|---------|
 | away_team | 0.60      | 0.48   | 0.53     | 2157    |
 | home_team | 0.69      | 0.78   | 0.73     | 3167    |
-\
+
 ![image](https://github.com/ahernandezjr/nba-win-prediction/assets/76761720/80dbe379-20ef-49f2-8547-66f67fd670ba) \
 
 ## Discussion:
